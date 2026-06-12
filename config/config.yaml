@@ -1,0 +1,10 @@
+
+artifact_dir: artifact
+
+data_ingestion:
+  root_dir: artifact/data_ingestion
+  source_URL: https://archive.ics.uci.edu/static/public/186/wine+quality.zip
+  local_data_file: artifact/data_ingestion/wine_quality.zip
+  unzip_dir: artifact/data_ingestion
+  ingested_train_dir: artifact/data_ingestion/ingested/train
+  ingested_test_dir: artifact/data_ingestion/ingested/test
