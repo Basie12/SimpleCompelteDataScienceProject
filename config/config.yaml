@@ -8,3 +8,8 @@ data_ingestion:
   unzip_dir: artifact/data_ingestion
   ingested_train_dir: artifact/data_ingestion/ingested/train
   ingested_test_dir: artifact/data_ingestion/ingested/test
+
+data_validation:
+  root_dir: artifact/data_validation
+  unzip_data_dir: artifact/data_ingestion/winequality-red.csv   # adjust to your real path
+  STATUS_FILE: artifact/data_validation/status.txt
