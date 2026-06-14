@@ -1,5 +1,6 @@
 from src.simple_mlops.config.configuration import ConfigurationManager
 from src.simple_mlops.components.model_trainer import ModelTrainer
+
 from src.simple_mlops import logger
 
 
